@@ -77,7 +77,7 @@
             bindings = <&kp SQT>, <&kp DQT>;
         };
 
-        TD_SCSO: tap_dance_SCSO {
+        TD_SCCO: tap_dance_SCCO {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
