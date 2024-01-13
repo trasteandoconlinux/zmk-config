@@ -28,91 +28,91 @@
 // &kp LCTRL &trans   &trans &trans   &trans   &trans             &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
 // &kp LSHFT &trans   &trans &trans   &trans   &trans             &TD_UNMN &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
 // -----------------------------------------------------------------------------------------
-        TD_LBCB: tap_dance_0 {
+        TD_LBCB: tap_dance_LBCB {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LBKT>, <&kp LBRC>;
         };
 
-        TD_RBCB: tap_dance_0 {
+        TD_RBCB: tap_dance_RBCB {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp RBKT>, <&kp RBRC>;
         };
 
-        TD_PLEQ: tap_dance_0 {
+        TD_PLEQ: tap_dance_PLEQ {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp EQUAL>, <&kp PLUS>;
         };
 
-        TD_UNMN: tap_dance_0 {
+        TD_UNMN: tap_dance_UNMN {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp UNDER>, <&kp MINUS>;
         };
 
-        TD_SLPI: tap_dance_0 {
+        TD_SLPI: tap_dance_SLPI {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp BSLH>, <&kp PIPE>;
         };
 
-        TD_GVTL: tap_dance_0 {
+        TD_GVTL: tap_dance_GVTL {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp GRAVE>, <&kp TILDE>;
         };
 
-        TD_QUDQ: tap_dance_0 {
+        TD_QUDQ: tap_dance_QUDQ {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SQT>, <&kp DQT>;
         };
 
-        TD_SCSO: tap_dance_0 {
+        TD_SCSO: tap_dance_SCSO {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp SEMI>, <&kp COMMA>;
         };
 
-        TD_SLQU: tap_dance_0 {
+        TD_SLQU: tap_dance_SLQU {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp FSLH>, <&kp QUESTION>;
         };
 
-        TD_BKCO: tap_dance_0 {
+        TD_BKCO: tap_dance_BKCO {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp COMMA>, <&kp LESS_THAN>;
         };
 
-        TD_BKDO: tap_dance_0 {
+        TD_BKDO: tap_dance_BKDO {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp DOT>, <&kp GREATER_THAN>;
         };
 
-        TD_LCAP: tap_dance_0 {
+        TD_LCAP: tap_dance_LCAP {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
 
-        TD_RCAP: tap_dance_0 {
+        TD_RCAP: tap_dance_RCAP {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
@@ -157,9 +157,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT          &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &trans   &trans &trans   &trans   &trans             &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &trans   &trans &trans   &trans   &trans             &TD_UNMN &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+   &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT           &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &trans   &trans &trans   &trans   &trans              &TD_LBCB  &TD_RBCB  &TD_SLPI        &TD_QUDQ &TD_SCCO &kp RET
+   &kp LSHFT &trans   &trans &trans   &trans   &trans              &TD_UNMN  &TD_EQPL  &TD_BKCO        &TD_BKDO &TD_SLQU &TD_RCAP
                              &kp LALT &mo UTIL   &kp SPACE   &kp SPACE   &mo UTIL    &kp RALT
                         >;
                 };
