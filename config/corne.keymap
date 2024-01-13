@@ -42,7 +42,7 @@
             bindings = <&kp RBKT>, <&kp RBRC>;
         };
 
-        TD_PLEQ: tap_dance_PLEQ {
+        TD_EQPL: tap_dance_EQPL {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
