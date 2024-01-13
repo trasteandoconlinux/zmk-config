@@ -115,7 +115,7 @@
         TD_RCAP: tap_dance_RCAP {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <250>;
             bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
         };
 
@@ -171,7 +171,7 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans       &trans       &trans       &trans       &trans       &trans          &trans    &trans       &trans       &trans       &trans       &trans 
+   &trans       &trans       &trans       &trans       &trans       &trans          &trans    &kp HOME       &trans       &kp END    &trans       &trans 
    &trans       &trans       &trans       &trans       &trans       &trans          &kp LEFT  &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
    &trans       &trans       &trans       &trans       &trans       &trans          &trans     &trans      &trans       &trans       &trans       &trans 
                                     &kp LALT     &trans       &kp SPACE      &kp SPACE  &trans   &kp RALT
