@@ -108,14 +108,14 @@
         TD_LCAP: tap_dance_LCAP {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             bindings = <&kp LSHIFT>, <&kp CAPSLOCK>;
         };
 
         TD_RCAP: tap_dance_RCAP {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <350>;
             bindings = <&kp RSHIFT>, <&kp CAPSLOCK>;
         };
 
