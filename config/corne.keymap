@@ -133,7 +133,7 @@
    &lt MOVE ESC   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &mt LCTRL TAB  &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp RET
    &TD_LCAP &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &TD_RCAP
-                  &kp LALT &mo LOWER &kp SPACE   &kp SPACE &mo RAISE &kp RALT
+                  &kp LALT &mo LOWER &lt UTIL SPACE    &kp SPACE &lt RAISE RET &kp RALT
                         >;
                 };
                 lower_layer {
@@ -146,7 +146,7 @@
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9        &kp N0   &kp BSPC
    &kp TAB    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8 &kp F9        &kp F10  &trans
    &TD_LCAP  &trans       &trans       &trans       &trans       &trans         &trans   &kp F5   &kp COMMA &kp DOT    &kp FSLH &trans
-                                    &kp LALT     &mo UTIL       &kp SPACE      &kp SPACE  &mo UTIL    &kp RALT
+                                    &kp LALT     &mo UTIL       &kp SPACE      &kp BSPC  &mo UTIL    &kp RALT
                         >;
                 };
 
@@ -160,7 +160,7 @@
    &kp  TAB  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT           &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &kp TAB  &trans   &trans &trans   &trans   &trans              &TD_LBCB  &TD_RBCB  &TD_SLPI        &TD_QUDQ &TD_SCCO &kp RET
    &TD_LCAP &trans   &trans &trans   &trans   &trans              &TD_UNMN  &TD_EQPL  &TD_BKCO        &TD_BKDO &TD_SLQU &TD_RCAP
-                             &kp LALT &mo UTIL   &kp SPACE   &kp SPACE   &mo UTIL    &kp RALT
+                             &kp LALT &mo UTIL   &kp SPACE   &kp BSPC   &mo UTIL    &kp RALT
                         >;
                 };
 
@@ -174,7 +174,7 @@
    &trans       &trans       &trans       &trans       &trans       &trans          &trans    &kp HOME       &trans       &kp END    &trans       &trans 
    &trans       &trans       &trans       &trans       &trans       &trans          &kp LEFT  &kp DOWN     &kp UP       &kp RIGHT    &trans       &trans
    &trans       &trans       &trans       &trans       &trans       &trans          &trans     &trans      &trans       &trans       &trans       &trans 
-                                    &kp LALT     &trans       &kp SPACE      &kp SPACE  &trans   &kp RALT
+                                    &kp LALT     &trans       &kp SPACE      &kp BSPC  &trans   &kp RALT
                         >;
                 };
 
@@ -188,7 +188,7 @@
    &trans       &trans       &trans       &trans       &trans       &trans            &trans    &trans       &trans       &trans       &trans       &trans 
    &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4      &trans    &trans       &trans       &trans       &trans       &trans
    &trans       &trans       &trans       &trans       &trans       &trans            &trans    &trans       &trans       &trans       &trans       &trans 
-                                    &kp LALT     &trans       &kp SPACE      &kp SPACE  &trans   &kp RALT
+                                    &kp LALT     &trans       &kp SPACE      &kp BSPC  &trans   &kp RALT
                         >;
                 };
 
